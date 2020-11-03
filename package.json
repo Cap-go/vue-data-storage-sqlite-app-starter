@@ -1,6 +1,6 @@
 {
   "name": "vue-data-storage-sqlite-app-starter",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -13,6 +13,7 @@
     "@capacitor/core": "2.4.2",
     "@ionic/vue": "^5.4.0",
     "@ionic/vue-router": "^5.4.0",
+    "capacitor-data-storage-sqlite": "^2.4.2-2",
     "core-js": "^3.6.5",
     "vue": "^3.0.0-0",
     "vue-router": "^4.0.0-0"
@@ -35,7 +36,17 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0-0",
     "typescript": "~3.9.3",
+    "vue-data-storage-sqlite-hook": "0.0.2-1",
     "vue-jest": "^5.0.0-0"
   },
-  "description": "An Ionic project"
+  "description": "Vue App Starter for capacitor-data-storage-sqlite",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jepiqueau/vue-data-storage-sqlite-app-starter.git"
+  },
+  "author": "Jean Pierre Quéau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jepiqueau/vue-data-storage-sqlite-app-starter/issues"
+  }
 }
