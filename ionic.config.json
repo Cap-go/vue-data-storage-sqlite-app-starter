@@ -1,0 +1,7 @@
+{
+  "name": "vue-data-storage-sqlite-app-starter",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
