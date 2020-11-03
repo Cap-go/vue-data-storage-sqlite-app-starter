@@ -23,7 +23,60 @@
 
 ## Installation
 
-!!! Application under construction !!!
+To start clone the project
+
+```bash
+git clone https://github.com/jepiqueau/vue-data-storage-sqlite-app-starter.git
+cd ./vue-data-storage-sqlite-app-starter
+git remote remove origin
+npm install
+cd electron
+npm install
+cd ..
+```
+
+To install the latest release of the ```capacitor-data-storage-sqlite``` plugin
+
+```bash
+npm run update
+npm run build
+npx cap sync
+npx cap sync @capacitor-community/electron
+npm run build
+npx cap copy
+npx cap copy web
+npx cap copy @capacitor-community/electron
+```
+
+## Running the app
+
+### BROWSER
+
+```
+npx cap serve
+```
+
+### IOS
+
+```
+npx cap open ios
+```
+
+### ANDROID
+
+```
+npx cap open android
+```
+
+### ELECTRON
+
+```
+npx cap open @capacitor-community/eletron
+```
+
+## Accessing the tests
+
+Go to the Tab2 of the application
 
 
 ## Contributors ✨
