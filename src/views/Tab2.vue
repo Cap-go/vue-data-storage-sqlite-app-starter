@@ -12,6 +12,7 @@
         </ion-toolbar>
       </ion-header>
       <ion-button @click="() => router.push('/storedefault')">StoreDefault</ion-button>
+      <ion-button @click="() => router.push('/filtervalues')">StoreFilterValues</ion-button>
     </ion-content>
   </ion-page>
 </template>

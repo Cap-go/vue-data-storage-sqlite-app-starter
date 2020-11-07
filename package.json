@@ -1,6 +1,6 @@
 {
   "name": "vue-data-storage-sqlite-app-starter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "scripts": {
     "update": "npm install --save capacitor-data-storage-sqlite@latest --save-dev vue-data-storage-sqlite-hook@latest",
@@ -17,7 +17,6 @@
     "@capacitor/ios": "^2.4.2",
     "@ionic/vue": "^5.4.0",
     "@ionic/vue-router": "^5.4.0",
-    "capacitor-data-storage-sqlite": "^2.4.2-2",
     "core-js": "^3.6.5",
     "vue": "^3.0.0-0",
     "vue-router": "^4.0.0-0"
@@ -37,10 +36,11 @@
     "@vue/compiler-sfc": "^3.0.0-0",
     "@vue/eslint-config-typescript": "^5.0.2",
     "@vue/test-utils": "^2.0.0-0",
+    "capacitor-data-storage-sqlite": "^2.4.2",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0-0",
     "typescript": "~3.9.3",
-    "vue-data-storage-sqlite-hook": "0.0.2-1",
+    "vue-data-storage-sqlite-hook": "0.0.4",
     "vue-jest": "^5.0.0-0"
   },
   "description": "Vue App Starter for capacitor-data-storage-sqlite",

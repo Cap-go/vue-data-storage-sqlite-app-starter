@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from '@ionic/vue-router';
 import { RouteRecordRaw } from 'vue-router';
 import Tabs from '../views/Tabs.vue'
 import StoreDefault from "@/views/StoreDefault.vue";
+import StoreFilterValues from "@/views/StoreFilterValues.vue";
 import NotFound from "@/views/NotFound.vue";
 
 const routes: Array<RouteRecordRaw> = [
@@ -35,6 +36,11 @@ const routes: Array<RouteRecordRaw> = [
     path: "/storedefault",
     name: "StoreDefault",
     component: StoreDefault,
+  },
+  {
+    path: "/filtervalues",
+    name: "StoreFilterValues",
+    component: StoreFilterValues,
   },
   {
     path: "/:catchAll(.*)",
