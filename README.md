@@ -6,7 +6,7 @@
 <p align="center"><strong><code>capacitor-data-storage-sqlite plugin<code></strong></p>
 <br>
 <p align="center">
-  <img src="https://img.shields.io/maintenance/yes/2020?style=flat-square" />
+  <img src="https://img.shields.io/maintenance/yes/2021?style=flat-square" />
   <a href="https://github.com/jepiqueau/vue-data-storage-sqlite-app-starter"><img src="https://img.shields.io/github/license/jepiqueau/vue-data-storage-sqlite-app-starter?style=flat-square" /></a>
   <a href="https://github.com/jepiqueau/vue-data-storage-sqlite-app-starter"><img src="https://img.shields.io/github/package-json/v/jepiqueau/vue-data-storage-sqlite-app-starter?style=flat-square" /></a>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
