@@ -5,18 +5,18 @@
         <ion-buttons slot="start">
           <ion-button @click="() => router.push('/tabs/tab2')">back</ion-button>
         </ion-buttons>
-        <ion-title>StoreDefault</ion-title>
+        <ion-title>StoreImportExportJson</ion-title>
       </ion-toolbar>
     </ion-header>
     <ion-content :fullscreen="true">
       <ion-header collapse="condense">
         <ion-toolbar>
-          <ion-title size="large">StoreDefault</ion-title>
+          <ion-title size="large">StoreImportExportJson</ion-title>
         </ion-toolbar>
       </ion-header>
       <ion-card>
         <ion-card-content>
-          <DefaultTest />
+          <ImportExportJsonTest />
         </ion-card-content>
       </ion-card>
     </ion-content>
@@ -26,13 +26,13 @@
 import { IonPage, IonButtons, IonHeader, IonToolbar, IonButton,
         IonTitle, IonContent, IonCard, IonCardContent } from '@ionic/vue';
 import { defineComponent } from 'vue';
-import DefaultTest from '@/components/DefaultTest.vue';
+import ImportExportJsonTest from '@/components/ImportExportJsonTest.vue';
 import { useRouter } from 'vue-router';
 
 export default defineComponent({
-  name: 'StoreDefault',
+  name: 'StoreImportExportJson',
   components: { IonPage, IonButtons, IonHeader, IonToolbar, IonButton,
-        IonTitle, IonContent, IonCard, IonCardContent, DefaultTest },
+        IonTitle, IonContent, IonCard, IonCardContent, ImportExportJsonTest },
   setup() {
     const router = useRouter();
     return { router };

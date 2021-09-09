@@ -3,6 +3,7 @@ import { RouteRecordRaw } from 'vue-router';
 import Tabs from '../views/Tabs.vue'
 import StoreDefault from "@/views/StoreDefault.vue";
 import StoreFilterValues from "@/views/StoreFilterValues.vue";
+import StoreImportExportJson from "@/views/StoreImportExportJson.vue";
 import NotFound from "@/views/NotFound.vue";
 
 const routes: Array<RouteRecordRaw> = [
@@ -42,6 +43,12 @@ const routes: Array<RouteRecordRaw> = [
     name: "StoreFilterValues",
     component: StoreFilterValues,
   },
+  {
+    path: "/importexportjson",
+    name: "StoreImportExportJson",
+    component: StoreImportExportJson,
+  },
+  
   {
     path: "/:catchAll(.*)",
     component: NotFound,

@@ -1,5 +1,6 @@
 import { readonly, ref } from 'vue';
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export function useState(initialState: any) {
   const state = ref(initialState);
   const setState = (newState: any) => {

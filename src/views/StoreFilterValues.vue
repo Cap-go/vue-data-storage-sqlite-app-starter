@@ -3,7 +3,7 @@
     <ion-header>
       <ion-toolbar>
         <ion-buttons slot="start">
-            <ion-back-button default-href="/tabs/tab2"></ion-back-button>
+          <ion-button @click="() => router.push('/tabs/tab2')">back</ion-button>
         </ion-buttons>
         <ion-title>StoreFilterValues</ion-title>
       </ion-toolbar>
@@ -16,28 +16,27 @@
       </ion-header>
       <ion-card>
         <ion-card-content>
-          <Suspense>
-            <template #default>
-              <FilterValuesTest />
-            </template>
-            <template #feedback>
-              <div> Loading ... </div>
-            </template>
-          </Suspense>
+          <FilterValuesTest />
         </ion-card-content>
       </ion-card>
     </ion-content>
   </ion-page>
 </template>
 <script lang="ts">
-import { IonPage, IonButtons, IonHeader, IonToolbar, IonBackButton,
+import { IonPage, IonButtons, IonHeader, IonToolbar, IonButton,
         IonTitle, IonContent, IonCard, IonCardContent } from '@ionic/vue';
 import { defineComponent } from 'vue';
 import FilterValuesTest from '@/components/FilterValuesTest.vue';
+import { useRouter } from 'vue-router';
+
 export default defineComponent({
   name: 'StoreFilterValues',
-  components: { IonPage, IonButtons, IonHeader, IonToolbar, IonBackButton,
-        IonTitle, IonContent, IonCard, IonCardContent, FilterValuesTest }
+  components: { IonPage, IonButtons, IonHeader, IonToolbar, IonButton,
+        IonTitle, IonContent, IonCard, IonCardContent, FilterValuesTest },
+  setup() {
+    const router = useRouter();
+    return { router };
+  }
 });
 </script>
 <style>
