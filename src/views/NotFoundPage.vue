@@ -22,13 +22,13 @@
     </ion-content>
   </ion-page>
 </template>
-<script>
+<script lang="ts">
 import { IonPage, IonButtons, IonHeader, IonToolbar, IonBackButton,
         IonTitle, IonContent, IonCard, IonCardContent } from '@ionic/vue';
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: "NotFound",
+  name: "NotFoundPage",
   components: { IonPage, IonButtons, IonHeader, IonToolbar, IonBackButton,
         IonTitle, IonContent, IonCard, IonCardContent }
 });

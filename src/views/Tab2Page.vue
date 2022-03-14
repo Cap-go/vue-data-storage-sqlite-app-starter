@@ -25,12 +25,12 @@
   import { useRouter } from 'vue-router';
 
   export default defineComponent({
-    name: 'Tab2',
+    name: 'Tab2Page',
     components: { IonHeader, IonToolbar, IonTitle, IonContent, IonPage,
                   IonButton },
     setup() {
       const router = useRouter();
       return { router };
     }
-  })
+  });
 </script>

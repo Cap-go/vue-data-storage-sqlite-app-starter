@@ -30,7 +30,7 @@ import ImportExportJsonTest from '@/components/ImportExportJsonTest.vue';
 import { useRouter } from 'vue-router';
 
 export default defineComponent({
-  name: 'StoreImportExportJson',
+  name: 'StoreImportExportJsonPage',
   components: { IonPage, IonButtons, IonHeader, IonToolbar, IonButton,
         IonTitle, IonContent, IonCard, IonCardContent, ImportExportJsonTest },
   setup() {

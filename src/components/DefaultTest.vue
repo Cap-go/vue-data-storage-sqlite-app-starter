@@ -133,7 +133,7 @@ export default defineComponent({
           .concat("\n**** Test Default Store was successful ****\n")); 
         return true;
       } catch (err) {
-          errMess = `${err.message}`;
+          errMess = `${err}`;
           return false;
       }
     };

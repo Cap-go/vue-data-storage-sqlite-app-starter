@@ -223,7 +223,7 @@ export default defineComponent({
           .concat("\n**** Test Import/Export Json Store was successful ****\n")); 
         return true;
       } catch (err) {
-          errMess = `${err.message}`;
+          errMess = `${err}`;
           return false;
       }
     };

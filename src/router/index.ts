@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import { RouteRecordRaw } from 'vue-router';
-import Tabs from '../views/Tabs.vue'
-import StoreDefault from "@/views/StoreDefault.vue";
-import StoreFilterValues from "@/views/StoreFilterValues.vue";
-import StoreImportExportJson from "@/views/StoreImportExportJson.vue";
-import NotFound from "@/views/NotFound.vue";
+import TabsPage from '../views/TabsPage.vue'
+import StoreDefaultPage from "@/views/StoreDefaultPage.vue";
+import StoreFilterValuesPage from "@/views/StoreFilterValuesPage.vue";
+import StoreImportExportJsonPage from "@/views/StoreImportExportJsonPage.vue";
+import NotFoundPage from "@/views/NotFoundPage.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -13,7 +13,7 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: '/tabs/',
-    component: Tabs,
+    component: TabsPage,
     children: [
       {
         path: '',
@@ -21,37 +21,37 @@ const routes: Array<RouteRecordRaw> = [
       },
       {
         path: 'tab1',
-        component: () => import('@/views/Tab1.vue')
+        component: () => import('@/views/Tab1Page.vue')
       },
       {
         path: 'tab2',
-        component: () => import('@/views/Tab2.vue')
+        component: () => import('@/views/Tab2Page.vue')
       },
       {
         path: 'tab3',
-        component: () => import('@/views/Tab3.vue')
+        component: () => import('@/views/Tab3Page.vue')
       }
     ]
   },
   {
     path: "/storedefault",
-    name: "StoreDefault",
-    component: StoreDefault,
+    name: "StoreDefaultPage",
+    component: StoreDefaultPage,
   },
   {
     path: "/filtervalues",
-    name: "StoreFilterValues",
-    component: StoreFilterValues,
+    name: "StoreFilterValuesPage",
+    component: StoreFilterValuesPage,
   },
   {
     path: "/importexportjson",
-    name: "StoreImportExportJson",
-    component: StoreImportExportJson,
+    name: "StoreImportExportJsonPage",
+    component: StoreImportExportJsonPage,
   },
   
   {
     path: "/:catchAll(.*)",
-    component: NotFound,
+    component: NotFoundPage,
   },
 
 ]
