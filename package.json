@@ -1,6 +1,6 @@
 {
   "name": "vue-data-storage-sqlite-app-starter",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "update": "npm install --save capacitor-data-storage-sqlite@latest --save-dev vue-data-storage-sqlite-hook@latest",
@@ -12,23 +12,23 @@
   },
   "dependencies": {
     "@capacitor-community/electron": "^4.1.0",
-    "@capacitor/android": "^3.4.3",
-    "@capacitor/app": "1.1.1",
-    "@capacitor/core": "3.4.3",
-    "@capacitor/dialog": "^1.0.7",
-    "@capacitor/haptics": "1.1.4",
-    "@capacitor/ios": "^3.4.3",
-    "@capacitor/keyboard": "1.2.2",
-    "@capacitor/status-bar": "1.0.8",
+    "@capacitor/android": "^4.0.0",
+    "@capacitor/app": "^4.0.0",
+    "@capacitor/core": "^4.0.0",
+    "@capacitor/dialog": "^4.0.0",
+    "@capacitor/haptics": "^4.0.0",
+    "@capacitor/ios": "^4.0.0",
+    "@capacitor/keyboard": "^4.0.0",
+    "@capacitor/status-bar": "^4.0.0",
     "@ionic/vue": "^6.0.11",
     "@ionic/vue-router": "^6.0.11",
-    "capacitor-data-storage-sqlite": "^3.4.3",
+    "capacitor-data-storage-sqlite": "^4.0.1",
     "core-js": "^3.8.3",
     "vue": "^3.2.21",
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
-    "@capacitor/cli": "3.4.3",
+    "@capacitor/cli": "^4.0.0",
     "@types/jest": "^27.0.2",
     "@typescript-eslint/eslint-plugin": "^5.6.0",
     "@typescript-eslint/parser": "^5.6.0",
@@ -49,7 +49,7 @@
     "jest": "^27.3.1",
     "ts-jest": "^27.0.7",
     "typescript": "^4.3.5",
-    "vue-data-storage-sqlite-hook": "^1.0.3"
+    "vue-data-storage-sqlite-hook": "^2.0.0"
   },
   "description": "Vue App Starter for capacitor-data-storage-sqlite",
   "repository": {
